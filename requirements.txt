@@ -5,3 +5,6 @@ langchain
 langchain-google-genai
 chromadb
 tiktoken
+bs4
+html5lib
+langchain-community 
