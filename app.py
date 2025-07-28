@@ -1,7 +1,7 @@
 import streamlit as st
 import os
 from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings
-from langchain.vectorstores import Chroma
+fromfrom langchain_community.vectorstores import Chroma
 # Import WebBaseLoader for fetching content from URLs
 from langchain.document_loaders import WebBaseLoader 
 from langchain.text_splitter import RecursiveCharacterTextSplitter
