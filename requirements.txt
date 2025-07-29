@@ -1,10 +1,8 @@
 streamlit
-google-generativeai
-pypdf
 langchain
+langchain-community
 langchain-google-genai
-chromadb
+faiss-cpu             # <--- ADD THIS LINE (replaces chromadb)
+openai
 tiktoken
-bs4
-html5lib
-langchain-community 
+# Keep any other libraries your app uses
