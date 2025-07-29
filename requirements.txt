@@ -5,5 +5,8 @@ langchain-google-genai
 faiss-cpu
 openai
 tiktoken
-beautifulsoup4     # <--- ADD THIS LINE
-# Any other libraries your app uses
+beautifulsoup4
+grpcio==1.62.0          # <--- ADD THIS LINE
+google-api-core==2.11.0 # <--- ADD THIS LINE
+# Keep any other libraries your app uses
+
