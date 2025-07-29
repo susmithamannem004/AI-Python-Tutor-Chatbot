@@ -1,7 +1,7 @@
 streamlit
-langchain==0.1.18               # Updated to a more recent 0.1.x version
-langchain-community==0.0.34     # Updated to match LangChain 0.1.18 compatibility
-langchain-google-genai==0.0.9   # Keep this
+langchain==0.1.17               # <--- CHANGED THIS TO 0.1.17
+langchain-community==0.0.30     # <--- Changed back to 0.0.30, as it was directly compatible with 0.1.0 and 0.1.17 should work with it.
+langchain-google-genai==0.0.9
 faiss-cpu
 openai
 tiktoken
