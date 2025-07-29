@@ -1,6 +1,6 @@
 streamlit
-langchain==0.1.16               # Let's try 0.1.16, known to be more broadly compatible
-langchain-community==0.0.30     # Keep this for now
+langchain==0.1.16               # Keep this
+langchain-community==0.0.34     # <--- CHANGE THIS TO 0.0.34
 langchain-google-genai==0.0.9
 faiss-cpu
 openai
