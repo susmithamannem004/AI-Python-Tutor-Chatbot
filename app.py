@@ -1,7 +1,7 @@
 import streamlit as st
 import os
 from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings
-from langchain_community.vectorstores import Chroma
+from langchain_community.vectorstores import FAISS
 # Import WebBaseLoader for fetching content from URLs
 from langchain.document_loaders import WebBaseLoader 
 from langchain.text_splitter import RecursiveCharacterTextSplitter
@@ -50,7 +50,7 @@ def create_vector_store():
     
     # 4. Create and persist the vector store
     # The persist_directory will store the embeddings locally after the first run
-    vector_store = Chroma.from_documents(
+    vector_store = FAISS.from_documents(
         documents=texts,
         embedding=embeddings,
         
