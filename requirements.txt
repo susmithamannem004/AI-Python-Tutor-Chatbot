@@ -2,7 +2,8 @@ streamlit
 langchain
 langchain-community
 langchain-google-genai
-faiss-cpu             # <--- ADD THIS LINE (replaces chromadb)
+faiss-cpu
 openai
 tiktoken
-# Keep any other libraries your app uses
+beautifulsoup4     # <--- ADD THIS LINE
+# Any other libraries your app uses
