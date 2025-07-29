@@ -1,12 +1,13 @@
 streamlit
-langchain
-langchain-community
-langchain-google-genai
+langchain==0.1.0                # Pin langchain core
+langchain-community==0.0.30     # Pin langchain community
+langchain-google-genai==0.0.9   # <--- THIS IS CRITICAL AND MUST BE HERE
 faiss-cpu
 openai
 tiktoken
 beautifulsoup4
-grpcio==1.62.0          # <--- ADD THIS LINE
-google-api-core==2.11.0 # <--- ADD THIS LINE
-# Keep any other libraries your app uses
+grpcio==1.62.0                  # Keep this to avoid asyncio errors
+google-api-core==2.11.0         # Keep this to avoid asyncio errors
+# Add any other libraries your app specifically uses
+
 
