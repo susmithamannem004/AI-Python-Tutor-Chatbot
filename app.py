@@ -53,7 +53,7 @@ def create_vector_store():
     vector_store = Chroma.from_documents(
         documents=texts,
         embedding=embeddings,
-        persist_directory="./chroma_db_web" # Changed directory name to avoid conflict with old one
+        
     )
     return vector_store
 
